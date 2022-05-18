@@ -1,0 +1,2 @@
+# Avamar-
+First open Excel $HDQExcelInstance = _Excel_Open()  ;Obtain the filepath name $Date = _NowDate() $DateArray = StringSplit($Date, '/') $DateMon = $DateArray[1] $DateDay = $DateArray[2] $DateYear = $DateArray[3] $Date = $DateMon &amp; '_' &amp; $DateDay &amp; '_' &amp; $DateYear $Filepath = "P:\IT_Interns\Avamar Automation\Avamar Backup Attachments\" &amp; $Date &amp; "\HDQ\Activities - Exceptions.*"
